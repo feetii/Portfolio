@@ -1,0 +1,30 @@
+{
+  "eslint.workingDirectories": [
+    { "mode": "auto" }
+  ],
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.snippetSuggestions": "top",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true
+}
