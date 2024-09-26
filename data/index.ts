@@ -72,122 +72,101 @@ export const gridItems = [
     spareImg: "",
     position: [5, 6], // Add position if applicable
   },
-];
-
-
-export const projects = [
+];export const projects = [
   {
-    id       : 1,
-    title       : "3D Solar System Planets to Explore",
-    des        : "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img           : "/p1.svg",
-    iconLists        : ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link            : "/ui.earth.com",
+    id: 1,
+    title: "Food Delivery Mobile App",
+    des: "Streamline food delivery with an intuitive app and real-time tracking.",
+    img: "/food-delivery.png",
+    iconLists: ["/flutter.svg", "/firebase.svg", "/map.svg", "/dart.svg"],
+    link: "https://github.com/feetii/jibleyy",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Responsive E-Learning Platform",
+    des: "An interactive platform offering a variety of courses for learners.",
+    img: "/elearning-platform1.png",
+    iconLists: ["/css.svg", "/html.svg", "/js.svg", "/firebase.svg", "/mongodb.svg"],
+    link: "",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Stock Management Mobile App",
+    des: "Manage inventory and sales for a paint shop with analytics features.",
+    img: "/stock-management.png",
+    iconLists: ["/java.svg", "/xml.svg", "/firebase.svg", "/chart.svg"],
+    link: "https://github.com/feetii/GS_peinture",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Responsive E-commerce Website for Mobiles and PCs",
+    des: "Seamless shopping experience for mobile phones and PCs with secure payments.",
+    img: "/ecommerce-website.png",
+    iconLists: ["/react.svg", "/next.svg", "/ts.svg", "/tail.svg", "/mongodb.svg"],
+    link: "",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Fethi was an incredible experience! His ability to understand our vision and translate it into a functional website exceeded our expectations. His attention to detail and creativity made a significant difference in our project.",
+    name: "Sofia Benali",
+
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Fethi brought our project to life with his innovative approach and technical expertise. He was always ready to offer solutions and went above and beyond to ensure our satisfaction. Highly recommend his services!",
+    name: "Youssef Hadj", 
+    title: "Responsable Marketing de Digital Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Fethi's dedication to quality and client satisfaction is unmatched. He took the time to understand our needs and delivered a product that truly represents our brand. I couldn't be happier with the results!",
+    name: "Nadia Rahmani", 
+    title: "Chef de Projet chez NextGen Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Fethi was a game-changer for our company. His professionalism and technical skills transformed our website into a powerful marketing tool. I wholeheartedly recommend him to anyone looking for web development expertise.",
+    name: "Khaled Boumediène",
+  
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Fethi was a pleasure to work with. His insightful feedback and collaborative spirit made the development process seamless. The end product surpassed our expectations and has made a huge impact on our business.",
+    name: "Amina Djemili",
+    title: "Directrice de Communication de Creative Labs",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Sonatrach",
+    img: "/sonatrach.svg",
+    nameImg: "Sonatrach",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Jibley",
+    img: "/jibley.png",
+    nameImg: "Jibley",
   },
 ];
 
 export const workExperience = [
   {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    id:1,
+    title: "Lead Frontend Developer",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile App Dev ",
+    desc: "Designed and developed mobile app  Android platforms using Flutter or Java.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -199,25 +178,26 @@ export const workExperience = [
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    id: 4, // New entry for Web App Developer
+    title: "Web App Developer",
+    desc: "Designed and developed web applications with a focus on user experience and performance.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp4.svg", // Add the corresponding image path
   },
+  
+ 
 ];
 
 export const socialMedia = [
   {
     id: 1,
+    link:"https://github.com/feetii",
     img: "/git.svg",
   },
+
   {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
+    id:2,
+    link:"https://www.linkedin.com/in/fethi-soualma-b32945231/?originalSubdomain=dz",
     img: "/link.svg",
   },
 ];
