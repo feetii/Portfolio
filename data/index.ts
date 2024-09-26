@@ -75,6 +75,7 @@ export const gridItems = [
 ];export const projects = [
   {
     id: 1,
+    tit: "Food  Delivery  ",
     title: "Food Delivery Mobile App",
     des: "Streamline food delivery with an intuitive app and real-time tracking.",
     img: "/food-delivery.png",
@@ -83,6 +84,7 @@ export const gridItems = [
   },
   {
     id: 2,
+    tit: "E-Learning ",
     title: "Responsive E-Learning Platform",
     des: "An interactive platform offering a variety of courses for learners.",
     img: "/elearning-platform1.png",
@@ -94,11 +96,13 @@ export const gridItems = [
     title: "Stock Management Mobile App",
     des: "Manage inventory and sales for a paint shop with analytics features.",
     img: "/stock-management.png",
+    tit: "Stock Management",
     iconLists: ["/java.svg", "/xml.svg", "/firebase.svg", "/chart.svg"],
     link: "https://github.com/feetii/GS_peinture",
   },
   {
     id: 4,
+    tit: "E-commerce Website",
     title: "Responsive E-commerce Website for Mobiles and PCs",
     des: "Seamless shopping experience for mobile phones and PCs with secure payments.",
     img: "/ecommerce-website.png",
